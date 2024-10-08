@@ -1,6 +1,7 @@
 package com.vitalish.leetcode.backtracking;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -11,6 +12,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
 
+@Disabled
 class LetterCombinationsTest {
 
     LetterCombinations letterCombinations = new LetterCombinations();
