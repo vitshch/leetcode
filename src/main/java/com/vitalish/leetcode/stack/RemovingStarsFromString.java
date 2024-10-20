@@ -11,20 +11,16 @@ import java.util.stream.Collectors;
 public class RemovingStarsFromString {
 
     public String removeStars(String s) {
-        Stack<Character> stack = new Stack<>();
+        var sb = new StringBuilder();
 
         for (int i = 0; i < s.length(); i++) {
-            var current = s.charAt(i);
-            if (current == '*') {
-                stack.pop();
+            if (s.charAt(i) == '*') {
+                sb.deleteCharAt(sb.length() - 1);
             } else {
-                stack.push(current);
+                sb.append(s.charAt(i));
             }
         }
-
-        return stack.stream()
-                .map(String::valueOf)
-                .collect(Collectors.joining());
+        return sb.toString();
     }
 
 }
