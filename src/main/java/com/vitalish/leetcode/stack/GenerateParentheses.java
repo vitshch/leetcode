@@ -9,6 +9,7 @@ import java.util.Stack;
  *
  * @see https://neetcode.io/problems/generate-parentheses
  */
+// @todo review!
 public class GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
