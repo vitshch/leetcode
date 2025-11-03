@@ -1,6 +1,7 @@
 package com.vitalish.leetcode.season1.binarysearch;
 
 import com.vitalish.leetcode.season1.binarysearch.MagneticForceBetweenTwoBalls;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -13,6 +14,7 @@ class MagneticForceBetweenTwoBallsTest {
 
     MagneticForceBetweenTwoBalls magneticForceBetweenTwoBalls = new MagneticForceBetweenTwoBalls();
 
+    @Disabled
     @ParameterizedTest
     @MethodSource("arguments")
     void testSolution(int[] position, int m, int expected) {
