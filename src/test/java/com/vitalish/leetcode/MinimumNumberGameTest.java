@@ -1,6 +1,6 @@
 package com.vitalish.leetcode;
 
-import com.vitalish.leetcode.sort.MinimumNumberGame;
+import com.vitalish.leetcode.season1.sort.MinimumNumberGame;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
